@@ -25,7 +25,7 @@ github_username:  alexiusacademia
 # Build settings
 markdown: kramdown
 # theme: minimal-mistakes-jekyll
-# theme: minima
+theme: minima
 # remote_theme: "mmistakes/minimal-mistakes@4.16.4"
 plugins:
   - jekyll-feed
