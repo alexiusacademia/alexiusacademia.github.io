@@ -26,10 +26,10 @@ github_username:  alexiusacademia
 markdown: kramdown
 # theme: minimal-mistakes-jekyll
 # theme: minima
-remote_theme: "mmistakes/minimal-mistakes@4.16.4"
+# remote_theme: "mmistakes/minimal-mistakes@4.16.4"
 plugins:
   - jekyll-feed
-  - jekyll-include-cache
+  #- jekyll-include-cache
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
