@@ -21,3 +21,7 @@ In here, I will layout a not so specific and less detailed outline of the projec
 
 The project object will consist of the project tasks, calendar management, working time setting, 
 organizing the task line (moving, splitting of task), task connections/dependencies, etc.
+
+### The Task object
+
+The task object is responsible for handling task properties, events and task manipulation capabilities.
