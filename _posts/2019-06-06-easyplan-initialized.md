@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Yet Another Project Planning Software
+title: Yet Another Project Management Software
 author: syncster31
 date: 2019-06-06T18:00:00+0800
 ---
