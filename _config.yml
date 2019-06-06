@@ -54,3 +54,5 @@ disqus:
   shortname: alexgh
 
 host: 0.0.0.0
+
+show_excerpts: True
