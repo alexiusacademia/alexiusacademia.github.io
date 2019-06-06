@@ -51,4 +51,4 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 disqus:
-  shortname: syncster31
+  shortname: alexgh
