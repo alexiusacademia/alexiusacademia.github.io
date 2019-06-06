@@ -23,6 +23,17 @@ layout: default
     {{ content }}
   </div>
 
+  <div class="tags-block">
+    {%- if page.tags -%}
+    Tags: 
+      {% for tag in page.tags %}
+        <span>
+          {{ tag }},
+        </span>
+      {% endfor %}
+    {%- endif -%}
+  </div>
+
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
   {%- endif -%}

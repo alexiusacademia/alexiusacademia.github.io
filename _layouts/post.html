@@ -20,7 +20,17 @@ layout: default
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    {{ content }}
+    <span>{{ content }}</span>
+  </div>
+
+  <div>
+    {%- if page.tags -%}
+      {% for tag in page.tags %}
+        <span>
+          {{ tag }}
+        </span>
+      {% endfor %}
+    {%- endif -%}
   </div>
 
   {%- if site.disqus.shortname -%}

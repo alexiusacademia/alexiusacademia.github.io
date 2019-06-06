@@ -2,6 +2,7 @@
 layout: poem
 title: Little Prisons
 author: kayy
+tags: [gadgets]
 ---
 Life is not the same anymore,  
 As modernization took us over  
