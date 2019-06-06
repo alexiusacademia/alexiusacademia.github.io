@@ -2,6 +2,7 @@
 layout: post
 title: Yet Another Project Planning Software
 author: syncster31
+date: 2019-06-06T18:00:00+0800
 ---
 Intro
 ===
