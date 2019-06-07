@@ -38,5 +38,9 @@ layout: default
     {%- include disqus_comments.html -%}
   {%- endif -%}
 
+  {%- if page.enable_comments -%}
+    <div class="fb-comments" data-href="https://alexiusacademia.github.io" data-width="600" data-numposts="20"></div>
+  {%- endif -%}
+
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
