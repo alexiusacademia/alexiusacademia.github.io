@@ -11,3 +11,5 @@ task = Task()
 task.split(task.task_segments[0], 10)
 ```
 This will split the first task segment into two with the new task segment on the left having a duration of 10 days.
+
+It's already been nine in the evening and I'm still working on the splitting of task. Hope to finish this this evening.
