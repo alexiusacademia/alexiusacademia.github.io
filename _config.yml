@@ -51,7 +51,7 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 disqus:
-  shortname: alexgh
+  # shortname: alexgh
 
 host: 0.0.0.0
 
