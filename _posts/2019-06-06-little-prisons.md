@@ -4,7 +4,7 @@ title: Little Prisons
 author: kayy
 date: 2019-06-06T10:00:00+0800
 tags: [gadgets]
-enable_comments: true
+comments: true
 ---
 Life is not the same anymore,  
 As modernization took us over  

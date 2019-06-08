@@ -3,6 +3,7 @@ layout: post
 title: EasyPlan Day 3
 author: syncster31
 tags: ["easyplan"]
+comments: true
 ---
 6:00am  
 I resumed the coding of the project. Started at the checking of the splitting of task. Next was getting the duration of the task. Not as straightforward as it may seem. To get the total duration, every task segment needs to get the duration and sum it all up.
