@@ -20,3 +20,6 @@ I'm thinking now how to construct the ```set_duration``` function. Thought that 
 
 9:40am  
 Just completed the ```set_duration``` function. Just return ```False``` when the third scenario is encountered.
+
+3:09pm  
+Now that I have setup the minimal barebones of the api, I will make the corresponding gui for the project. Since what I selected as a framework is _wxpython_, I have to review its usage and howto's since its a long time when I first messed around with it.
