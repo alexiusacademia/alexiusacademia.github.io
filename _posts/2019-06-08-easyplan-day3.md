@@ -17,3 +17,6 @@ I'm thinking now how to construct the ```set_duration``` function. Thought that 
 - When the new duration is greater than the previous duration.
 - When the new duration is less than the previous duration but the difference is less than the duration of the last segment.
 - When the new duration is less than the previous duration but the difference is greater than the duration of the last segment or its succeeding.
+
+9:40am  
+Just completed the ```set_duration``` function. Just return ```False``` when the third scenario is encountered.
