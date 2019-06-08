@@ -39,3 +39,7 @@ After placing the task list pane to the main frame, the ```TaskListPane``` will 
 
 9:36pm  
 Before continuing, I decided to take a step back and study about ribbons. I like the looks of them to be implemented in this application, but I am also open if I could pull a more unique style if ever.
+
+10:38pm  
+Here now is the sample of the ribbon drafted:
+![alt text](/../assets/images/easyplan/day3/ribbon_preview.png "Ribbon preview")
