@@ -43,3 +43,7 @@ Before continuing, I decided to take a step back and study about ribbons. I like
 10:38pm  
 Here now is the sample of the ribbon drafted:
 ![alt text](/../assets/images/easyplan/day3/ribbon_preview.png "Ribbon preview")
+
+12:06am  
+Time for rest. Ribbon is drawn and the tasks pane well managed in the sizer.
+Tomorrow will be the linking of the core api and the gui initially.
