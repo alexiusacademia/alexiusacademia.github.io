@@ -36,3 +36,6 @@ This will be the pane where the tasks definitions will be placed including the a
 
 8:57pm  
 After placing the task list pane to the main frame, the ```TaskListPane``` will be improved to put some action buttons like a toolbar.
+
+9:36pm  
+Before continuing, I decided to take a step back and study about ribbons. I like the looks of them to be implemented in this application, but I am also open if I could pull a more unique style if ever.
