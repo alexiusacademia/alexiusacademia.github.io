@@ -37,6 +37,7 @@ minima:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-paginate
   #- jekyll-include-cache
 
 # Exclude from processing.
@@ -56,3 +57,5 @@ disqus:
 host: 0.0.0.0
 
 show_excerpts: True
+
+paginate: 3
