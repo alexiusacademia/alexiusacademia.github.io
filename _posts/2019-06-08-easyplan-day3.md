@@ -32,4 +32,7 @@ class TaskListPane(wx.Panel):
     ...
 ```
 
-This will be the pane where the tasks definitions will be placed.
+This will be the pane where the tasks definitions will be placed including the action buttons in manipulating each task (e.g. removing, indenting, creating new task)
+
+8:57pm  
+After placing the task list pane to the main frame, the ```TaskListPane``` will be improved to put some action buttons like a toolbar.
