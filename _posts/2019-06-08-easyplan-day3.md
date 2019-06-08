@@ -23,3 +23,13 @@ Just completed the ```set_duration``` function. Just return ```False``` when the
 
 3:09pm  
 Now that I have setup the minimal barebones of the api, I will make the corresponding gui for the project. Since what I selected as a framework is _wxpython_, I have to review its usage and howto's since its a long time when I first messed around with it.
+
+7:24pm  
+After a brief review, I started coding on the gui component. First I'm working on the task list pane which I created by subclassing the ```wx.Panel``` window:
+
+```python
+class TaskListPane(wx.Panel):
+    ...
+```
+
+This will be the pane where the tasks definitions will be placed.
