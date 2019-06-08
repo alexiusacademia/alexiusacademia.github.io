@@ -10,22 +10,21 @@ layout: default
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Latest Entries" }}</h2>
+    <h2 class="post-list-heading">{{ page.list_title | default: "Latest Entry" }}</h2>
     <ul class="post-list">
-      {%- for post in site.posts -%}
+      {%- assign latest = site.posts | first -%}
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
+            {{ latest.title | escape }}
           </a>
         </h3>
         {%- if site.show_excerpts -%}
-          {{ post.excerpt | truncate: 156 }}
+          {{ latest.excerpt | truncate: 156 }}
         {%- endif -%}
       </li>
-      {%- endfor -%}
     </ul>
 
     <!--<p class="feed-subscribe"><svg class="svg-icon orange"><use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg><a href="{{ "/feed.xml" | relative_url }}">Subscribe</a></p>-->
