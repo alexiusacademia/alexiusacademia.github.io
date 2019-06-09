@@ -5,6 +5,7 @@ author: kayy
 date: 2019-06-06T10:00:00+0800
 tags: [gadgets]
 comments: true
+like: true
 ---
 Life is not the same anymore,  
 As modernization took us over  

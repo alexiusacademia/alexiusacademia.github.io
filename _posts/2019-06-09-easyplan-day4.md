@@ -4,6 +4,7 @@ title: EasyPlan Day 4
 author: syncster31
 tags: ["easyplan"]
 comments: true
+like: true
 data: 2019-06-09T08:58:00+0800
 ---
 8:58am  

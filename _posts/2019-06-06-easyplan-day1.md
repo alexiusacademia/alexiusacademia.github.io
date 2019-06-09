@@ -4,6 +4,7 @@ title: EASYPLAN Activities (Day 1)
 author: syncster31
 date: 2019-06-06T23:00:00+0800
 comments: true
+like: true
 ---
 Today, I started coding on the project. I plan to host the core codes to github for simplicity of version control plus I just want it to be available to me at all times during the development.
 
