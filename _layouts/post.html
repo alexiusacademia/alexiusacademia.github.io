@@ -42,5 +42,14 @@ layout: default
     <div class="fb-comments" data-href="https://alexiusacademia.github.io" data-width="600" data-numposts="20"></div>
   {%- endif -%}
 
+  {%- if page.like -%}
+  <div class="fb-like" 
+    data-href="https://alexiusacademia.github.io" 
+    data-width="600" 
+    data-layout="button_count" 
+    data-action="like" 
+    data-size="large" data-show-faces="true" data-share="true"></div>
+  {%- endif -%}
+
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
