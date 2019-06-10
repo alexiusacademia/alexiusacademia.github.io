@@ -13,4 +13,5 @@ First thing I did was the improvement of the splitter window by applying the liv
 Then on the ribbon, instead of using buttons of the contents of ribbon panel, I tried to use toolbars instead and it's more appealing than before so I decided to adapt it.
 
 8:26pm  
-Now dinner is over, back to coding :>.
+Now dinner is over, back to coding while watching IM3. :>
+Instead of using the stock bitmaps, free icons are used from ```icons8.com```.
