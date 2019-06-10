@@ -43,3 +43,5 @@ class Task:
         ts1 = TaskSegment(0, 1)
         self.task_segments = [ts1]
 ```
+
+Task constructor bug is now solved. To get track of what is currently selected from the WBS (Work Breakdown Structure), a new global variable to class ```Project``` was introduced named ```selected_task_index```. Now, whenever an item is selected from the WBS, its index is saved to the variable mentioned before so that it can be used later in other manipulation functions.
