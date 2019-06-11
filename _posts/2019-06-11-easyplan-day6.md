@@ -21,4 +21,9 @@ The project object now is being updated everytime the user has finished editing 
 12:11pm  
 Aside from adding a task at the last index, task can now be added at a specified location by selecting a row in the WBS.
 
+Task removal is first implemented from the ribbon commands. A user needs to select a task first, otherwise, an error will be displayed.
+
 The next event I'm going to work on is the scroll event which is included on the style of the ListCtrl object. This will handle the view adjustment of the **WBS** when some parts of it is not visible on the splitter window.
+
+7:12pm  
+I am now trying to implement ```wx.Grid``` as the widget for the _work breakdown structure_. I do this by creating a new module ```wbs.py```.
