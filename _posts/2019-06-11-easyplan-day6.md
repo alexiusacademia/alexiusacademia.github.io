@@ -15,4 +15,7 @@ To implement this, I have to create a custom method from the ```TaskListPane``` 
 11:18am  
 I have now decided to subclass ```wx.ListCtrl``` and added the ```wx.lib.mixins.listctrl.TextEditMixin``` as parent class to make all the cells editable. The event after editing the cell is already captured and handled in the method ```def on_end_editing(self, event)```.
 
+11:37am  
+The project object now is being updated everytime the user has finished editing a cell in the WBS. Some error and bug checking are still to be made.
+
 The next event I'm going to work on is the scroll event which is included on the style of the ListCtrl object. This will handle the view adjustment of the **WBS** when some parts of it is not visible on the splitter window.
