@@ -20,3 +20,9 @@
     -webkit-columns: 2;
     -moz-columns: 2;
 }
+
+.page-list-author-name {
+    font-size: 0.75em;
+    font-style: italic;
+    margin-bottom: 20px;
+}
