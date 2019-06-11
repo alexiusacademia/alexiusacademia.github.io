@@ -26,4 +26,9 @@ Task removal is first implemented from the ribbon commands. A user needs to sele
 The next event I'm going to work on is the scroll event which is included on the style of the ListCtrl object. This will handle the view adjustment of the **WBS** when some parts of it is not visible on the splitter window.
 
 7:12pm  
-I am now trying to implement ```wx.Grid``` as the widget for the _work breakdown structure_. I do this by creating a new module ```wbs.py```.
+I am now trying to implement ```wx.Grid``` as the widget for the _work breakdown structure_. I do this by creating a new module ```wbs.py```. 
+
+9:09pm  
+Now, the _WBS_ object is working and rows are now appended based on the number of tasks on the project object. The following methods will now be added to the class:
+- ```on_end_editing(self, event)``` - Update the project object after editing
+- ```on_row_selected(self, event)``` - Set the selected_index on the project object on what row index is selected, this way, we can track which row to work on when executing commands such as inserting task or deleting them.
