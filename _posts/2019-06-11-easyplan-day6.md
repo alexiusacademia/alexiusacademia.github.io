@@ -30,5 +30,34 @@ I am now trying to implement ```wx.Grid``` as the widget for the _work breakdown
 
 9:09pm  
 Now, the _WBS_ object is working and rows are now appended based on the number of tasks on the project object. The following methods will now be added to the class:
+
 - ```on_end_editing(self, event)``` - Update the project object after editing
 - ```on_row_selected(self, event)``` - Set the selected_index on the project object on what row index is selected, this way, we can track which row to work on when executing commands such as inserting task or deleting them.
+
+11:48pm  
+Both the two methods above are successfully implemented.
+
+```python
+    def on_row_selected(self, event):
+        """
+        Event when a row is selected.
+        :param event:
+        :return:
+        """
+        if isinstance(event, gridlib.GridEvent):
+            index = event.GetRow()
+            self.SelectRow(index)
+            self.project.selected_task_index = index
+
+    def on_cell_edit_complete(self, event):
+        """
+        Called when cell editing is complete.
+        :param event:
+        :return:
+        """
+        if isinstance(event, gridlib.GridEvent):
+            cell = event.GetRow(), event.GetCol()
+            self.update_project(cell[0], cell[1], event.GetString())
+```
+
+The ```update_project``` method is just for updating the project object referenced based on the new data entries.
