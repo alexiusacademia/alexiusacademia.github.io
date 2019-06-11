@@ -18,4 +18,7 @@ I have now decided to subclass ```wx.ListCtrl``` and added the ```wx.lib.mixins.
 11:37am  
 The project object now is being updated everytime the user has finished editing a cell in the WBS. Some error and bug checking are still to be made.
 
+12:11pm  
+Aside from adding a task at the last index, task can now be added at a specified location by selecting a row in the WBS.
+
 The next event I'm going to work on is the scroll event which is included on the style of the ListCtrl object. This will handle the view adjustment of the **WBS** when some parts of it is not visible on the splitter window.
