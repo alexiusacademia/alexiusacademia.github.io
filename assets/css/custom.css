@@ -10,3 +10,13 @@
     font-size: 0.8em;
     font-style: italic;
 }
+
+.poem-page-title {
+    text-align: center
+}
+
+.two-columns {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}

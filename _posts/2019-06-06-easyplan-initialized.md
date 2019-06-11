@@ -6,9 +6,6 @@ date: 2019-06-06T18:00:00+0800
 comments: true
 like: true
 ---
-
-## Intro
-
 At six o'clock this evening, I initialized coding on a new project, code named, _easyplan_. This is planned to be a desktop software as of today and will be used as a project management tool.
 
 ## Motivation

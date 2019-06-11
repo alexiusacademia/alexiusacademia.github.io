@@ -1,5 +1,5 @@
 ---
 layout: poems
-title: Poems
+title: Poetry
 display_on_nav: True
 ---
