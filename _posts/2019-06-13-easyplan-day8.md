@@ -5,7 +5,7 @@ author: syncster31
 tags: ["easyplan"]
 comments: true
 like: true
-date: 2019-06-13 06:54:00+0800
+date: 2019-06-13
 ---
 Yesterday, I came across a problem of maximum recursion and the task segments not moving when the task start date has been changed.
 
