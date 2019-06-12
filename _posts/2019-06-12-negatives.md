@@ -1,6 +1,6 @@
 ---
 layout: poem
-title: Internet
+title: Negatives
 author: kayy
 date: 2019-06-12T17:28:00+0800
 tags: [internet, modern media]
