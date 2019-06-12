@@ -5,7 +5,7 @@ author: syncster31
 tags: ["easyplan"]
 comments: true
 like: true
-data: 2019-06-11T06:37:00+0800
+date: 2019-06-11T06:37:00+0800
 ---
 6:37am  
 After a few thinking, I decided to make the WBS table display (```ListCtrl```) editable instead of relying on the custom dialog windows alone. This will make the editing more easier for the use. Haven't tried it before so it would be exciting to implement I guess.

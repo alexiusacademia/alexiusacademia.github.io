@@ -5,7 +5,7 @@ author: syncster31
 tags: ["easyplan"]
 comments: true
 like: true
-data: 2019-06-10T19:49:00+0800
+date: 2019-06-10T19:49:00+0800
 ---
 7:49pm  
 I resumed coding on the project.
