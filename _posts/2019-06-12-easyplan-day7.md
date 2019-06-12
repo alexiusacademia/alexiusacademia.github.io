@@ -19,3 +19,6 @@ The basic functionalities for the _WBS_ are almost complete. Some of the functio
 Among other things that I'm gonna be coding for today is the gantt chart display. I'm still deciding on what to use as a canvas though. Spent quite some time last night on this and I still haven't yet.
 
 So maybe I'm gonna be coding a little before breakfast and then after that, a lot of time will be put to planning on the next steps ahead.
+
+8:28pm  
+To create the canvas, I decided to use the base class ```wx.Window```, also the bars are instance of it. ```Bar``` class is the object the draws the bar segments for each task and draws them to the canvas at the appropriate locations.
