@@ -22,3 +22,14 @@ So maybe I'm gonna be coding a little before breakfast and then after that, a lo
 
 8:28pm  
 To create the canvas, I decided to use the base class ```wx.Window```, also the bars are instance of it. ```Bar``` class is the object the draws the bar segments for each task and draws them to the canvas at the appropriate locations.
+
+9:47pm  
+Here comes the debugging. What I have now is that, if I adjust the start day of a task below the first task, it's giving me this error:
+
+```
+RecursionError: maximum recursion depth exceeded
+```
+
+which is odd by the way because I didn't create a recurssion method in any of my class and the error message just says that and nothing else. I have to do the debugging the hard way. Trial and error!
+
+If I use Painting, the bars will be drawn gracefully and successfully for each operation. But that's not what I wanted. I needed the bars wo be objects, not paint, so that I can handle my own events on each bar segements later.
