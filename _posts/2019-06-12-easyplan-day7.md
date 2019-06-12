@@ -33,3 +33,7 @@ RecursionError: maximum recursion depth exceeded
 which is odd by the way because I didn't create a recurssion method in any of my class and the error message just says that and nothing else. I have to do the debugging the hard way. Trial and error!
 
 If I use Painting, the bars will be drawn gracefully and successfully for each operation. But that's not what I wanted. I needed the bars wo be objects, not paint, so that I can handle my own events on each bar segements later.
+
+---
+
+I have found the cause of the RecursionError. Atleast I hope I had. But I still have no way of fixing it. The one that's getting called for about 200 times is the handler for the ```wxEVT_GRID_CELL_CHANGED```. Every call on this calls a method from the controller which in turns call other methods from other class, one of thos is the one that makes the Bar Charts.
