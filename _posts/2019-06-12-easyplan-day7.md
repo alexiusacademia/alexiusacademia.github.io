@@ -5,7 +5,7 @@ author: syncster31
 tags: ["easyplan"]
 comments: true
 like: true
-date: 2019-06-12T07:31:00+0800
+date: 2019-06-12
 ---
 Today is a holiday, so I expect to have a longer time in coding.  
 
