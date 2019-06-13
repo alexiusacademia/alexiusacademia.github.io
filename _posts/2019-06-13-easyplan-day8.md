@@ -26,3 +26,6 @@ def set_start_day(self, s):
 ```
 
 I stil have to find the solution to the RecursionError even though the program is working as intended. This may cause some stack overflow in the future and nobody want that especially on low memory PCs.
+
+8:27pm  
+I think I just solved the recursion problem. I no longer call a method from the main frame that calls a method from gantt chart class many times that results in a recursion problem. Instead, I call the gantt chart method from inside the work breakdown structure itself by referencing the parent's gantt chart.
