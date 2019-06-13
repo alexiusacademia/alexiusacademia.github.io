@@ -29,3 +29,6 @@ I stil have to find the solution to the RecursionError even though the program i
 
 8:27pm  
 I think I just solved the recursion problem. I no longer call a method from the main frame that calls a method from gantt chart class many times that results in a recursion problem. Instead, I call the gantt chart method from inside the work breakdown structure itself by referencing the parent's gantt chart.
+
+9:38pm  
+Now, existing functions are working well without any problems, adding, deleting and editing project tasks works.
