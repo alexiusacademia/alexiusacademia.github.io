@@ -10,23 +10,26 @@ layout: default
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         {{ page.date | date: date_format }}
       </time>
-      {%- if page.author -%}
-        <br>by <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <span class="p-author h-card" itemprop="name">
-            <em>{{ page.author | escape }}</em>
-          </span>
-        </span>
-      {%- endif -%}</p>
+      <div>
+      {%- assign num_authors = page.authors.size -%}
+        {%- assign last_index = num_authors | minus:1 -%}
+        {%- if num_authors > 1 -%}
+          {%- for sn in page.authors -%}
+            {%- assign author = site.authors | where: 'short_name', sn | first -%}
+            <a href="{{ author.url }}">{{ author.name }}</a>
+            
+            {%- if forloop.index > last_index -%}
+            {%- else -%}
+              &nbsp; & &nbsp;
+            {%- endif -%}
+          {%- endfor -%}
+        {%- endif -%}
+      </div>
   </header>
 
   <div class="post-content e-content poem-body" itemprop="articleBody">
     {{ content }}
   </div>
-
-  {%- for sn in page.authors -%}
-    {%- assign author = site.authors | where: 'short_name', sn | first -%}
-    - <a href="{{ author.url }}">{{ author.name }}</a>
-  {%- endfor -%}
 
   <div class="tags-block">
     {%- if page.tags -%}
