@@ -32,3 +32,5 @@ I think I just solved the recursion problem. I no longer call a method from the 
 
 9:38pm  
 Now, existing functions are working well without any problems, adding, deleting and editing project tasks works.
+
+I am now implementing the splitting of a task segment. Currently unable to make it work though. Will try again tomorrow.
