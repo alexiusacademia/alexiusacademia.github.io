@@ -1,11 +1,12 @@
 ---
 layout: poem
 title: Little Prisons
-author: kayy
+authors: [kayy]
 date: 2019-06-06T10:00:00+0800
 tags: [gadgets]
 comments: true
 like: true
+permalink: 2019/06/06/little-prisons
 ---
 Life is not the same anymore,  
 As modernization took us over  

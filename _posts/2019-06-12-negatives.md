@@ -1,11 +1,12 @@
 ---
 layout: poem
 title: Negatives
-author: kayy & alex
+authors: [kayy, alex]
 date: 2019-06-12T17:28:00+0800
 tags: [internet, modern media]
 comments: true
 like: true
+permalink: 2019/06/12/negatives
 ---
 The internet is for the strong-willed only.  
 If you are weak, everything about you will change.  

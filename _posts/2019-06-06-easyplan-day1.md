@@ -1,7 +1,7 @@
 ---
 layout: post
 title: EASYPLAN Activities (Day 1)
-author: syncster31
+authors: [alex]
 date: 2019-06-06T23:00:00+0800
 comments: true
 like: true
