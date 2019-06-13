@@ -26,3 +26,9 @@
     font-style: italic;
     margin-bottom: 20px;
 }
+
+.author-position {
+    font-size: 1.5em;
+    color: gray;
+    font-weight: lighter;
+}

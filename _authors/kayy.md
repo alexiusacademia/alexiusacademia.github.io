@@ -1,4 +1,5 @@
 ---
+layout: author
 short_name: kayy
 name: Kayy Nunag
 position: Writer
