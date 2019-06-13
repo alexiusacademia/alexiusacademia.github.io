@@ -1,11 +1,12 @@
 ---
 layout: post
 title: EasyPlan Day 8
-author: syncster31
+authors: [alex]
 tags: ["easyplan"]
 comments: true
 like: true
 date: 2019-06-13
+permalink: 2019/06/13/easyplan-day8
 ---
 Yesterday, I came across a problem of maximum recursion and the task segments not moving when the task start date has been changed.
 

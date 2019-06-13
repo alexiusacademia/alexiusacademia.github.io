@@ -1,11 +1,12 @@
 ---
 layout: post
 title: EasyPlan Day 4
-author: syncster31
+authors: [alex]
 tags: ["easyplan"]
 comments: true
 like: true
 date: 2019-06-09T08:58:00+0800
+permalink: 2019/06/09/easyplan-day4
 ---
 8:58am  
 First thing, is the refactoring the code for the ribbon. What I did is separated the creation of the pages for the ribbon and put them in separate methods (```page_gantt_chart``` etc.).

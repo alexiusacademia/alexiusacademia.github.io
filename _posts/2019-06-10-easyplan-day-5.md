@@ -1,11 +1,12 @@
 ---
 layout: post
 title: EasyPlan Day 5
-author: syncster31
+authors: [alex]
 tags: ["easyplan"]
 comments: true
 like: true
 date: 2019-06-10T19:49:00+0800
+permalink: 2019/06/10/easyplan-day-5
 ---
 7:49pm  
 I resumed coding on the project.

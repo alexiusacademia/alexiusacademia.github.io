@@ -1,11 +1,12 @@
 ---
 layout: post
 title: EasyPlan Day 7
-author: syncster31
+authors: [alex]
 tags: ["easyplan"]
 comments: true
 like: true
 date: 2019-06-12
+permalink: 2019/06/12/easyplan-day7
 ---
 Today is a holiday, so I expect to have a longer time in coding.  
 

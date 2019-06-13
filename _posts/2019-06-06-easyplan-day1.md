@@ -5,6 +5,7 @@ authors: [alex]
 date: 2019-06-06T23:00:00+0800
 comments: true
 like: true
+permalink: 2019/06/06/easyplan-day1
 ---
 Today, I started coding on the project. I plan to host the core codes to github for simplicity of version control plus I just want it to be available to me at all times during the development.
 

@@ -1,11 +1,12 @@
 ---
 layout: post
 title: EasyPlan Day 6
-author: syncster31
+authors: [alex]
 tags: ["easyplan"]
 comments: true
 like: true
 date: 2019-06-11
+permalink: 2019/06/11/easyplan-day6
 ---
 6:37am  
 After a few thinking, I decided to make the WBS table display (```ListCtrl```) editable instead of relying on the custom dialog windows alone. This will make the editing more easier for the use. Haven't tried it before so it would be exciting to implement I guess.
