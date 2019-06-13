@@ -55,7 +55,7 @@ layout: default
   {% assign base_url = "https://alexiusacademia.github.io/" %}
     {% assign permalink = page.permalink %}
     {% assign ext = '.html' %}
-    {% assign href = base_url | append: '/' | append: permalink %}
+    {% assign href = base_url | append: '/' | append: permalink | append: ext %}
   <div class="fb-like" 
     data-href={{ href }} 
     data-width="600" 
