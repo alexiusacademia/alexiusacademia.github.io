@@ -10,13 +10,32 @@ layout: default
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         {{ page.date | date: date_format }}
       </time>
-      {%- if page.author -%}
-        <br>by <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <span class="p-author h-card" itemprop="name">
-            <em>{{ page.author | escape }}</em>
-          </span>
-        </span>
-      {%- endif -%}</p>
+      <div>
+        {%- assign num_authors = page.authors.size -%}
+        {%- assign last_index = num_authors | minus:1 -%}
+        {%- if num_authors > 1 -%}
+        {%- for sn in page.authors -%}
+        {%- assign author = site.authors | where: 'short_name', sn | first -%}
+        <a href="{{ author.url }}">{{ author.name }}</a>
+
+        {%- if forloop.index > last_index -%}
+        {%- else -%}
+        &nbsp; & &nbsp;
+        {%- endif -%}
+        {%- endfor -%}
+        {%- else -%}
+        {%- for sn in page.authors -%}
+        {%- assign author = site.authors | where: 'short_name', sn | first -%}
+        <a href="{{ author.url }}">{{ author.name }}</a>
+
+        {%- if forloop.index > last_index -%}
+        {%- else -%}
+        &nbsp; & &nbsp;
+        {%- endif -%}
+        {%- endfor -%}
+        {%- endif -%}
+      </div>
+    </p>
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
@@ -25,43 +44,39 @@ layout: default
 
   {% assign author = site.authors | where: 'short_name', page.author | first %}
   {% if author %}
-    - <a href="{{ author.url }}">{{ author.name }}</a>
+  - <a href="{{ author.url }}">{{ author.name }}</a>
   {% endif %}
 
   <div>
     {%- if page.tags -%}
     Tags:
-      {% for tag in page.tags %}
-        <span>
-          {{ tag }}
-        </span>
-      {% endfor %}
+    {% for tag in page.tags %}
+    <span>
+      {{ tag }}
+    </span>
+    {% endfor %}
     {%- endif -%}
   </div>
 
   {%- if site.disqus.shortname -%}
-    {%- include disqus_comments.html -%}
+  {%- include disqus_comments.html -%}
   {%- endif -%}
 
   {%- if page.comments -%}
-    {% assign base_url = "https://alexiusacademia.github.io/" %}
-    {% assign permalink = page.permalink %}
-    {% assign ext = '.html' %}
-    {% assign href = base_url | append: '/' | append: permalink | append: ext %}
-    <div class="fb-comments" data-href={{ href }} data-width="600" data-numposts="20"></div>
+  {% assign base_url = "https://alexiusacademia.github.io/" %}
+  {% assign permalink = page.permalink %}
+  {% assign ext = '.html' %}
+  {% assign href = base_url | append: '/' | append: permalink | append: ext %}
+  <div class="fb-comments" data-href={{ href }} data-width="600" data-numposts="20"></div>
   {%- endif -%}
 
   {%- if page.like -%}
   {% assign base_url = "https://alexiusacademia.github.io/" %}
-    {% assign permalink = page.permalink %}
-    {% assign ext = '.html' %}
-    {% assign href = base_url | append: '/' | append: permalink %}
-  <div class="fb-like" 
-    data-href={{ href }} 
-    data-width="600" 
-    data-layout="standard" 
-    data-action="like" 
-    data-size="large" data-show-faces="true" data-share="true"></div>
+  {% assign permalink = page.permalink %}
+  {% assign ext = '.html' %}
+  {% assign href = base_url | append: '/' | append: permalink %}
+  <div class="fb-like" data-href={{ href }} data-width="600" data-layout="standard" data-action="like" data-size="large"
+    data-show-faces="true" data-share="true"></div>
   {%- endif -%}
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
