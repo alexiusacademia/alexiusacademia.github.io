@@ -13,4 +13,5 @@ This is supposed to Day 10, however, I just made one commit yesterday. That comm
 
 I made a false bar because I cannot, as of this writing, make the window refresh work. Everytime I call the redraw method from the event triggered by the split method, the application crashes.
 
+7:34am  
 Now to work on the task splitting on the gui, I have to modify the core Task class and add the resulting two task segments after splitting the task.
