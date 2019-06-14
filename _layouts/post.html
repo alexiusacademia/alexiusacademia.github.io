@@ -42,11 +42,6 @@ layout: default
     <span>{{ content }}</span>
   </div>
 
-  {% assign author = site.authors | where: 'short_name', page.author | first %}
-  {% if author %}
-  - <a href="{{ author.url }}">{{ author.name }}</a>
-  {% endif %}
-
   <div>
     {%- if page.tags -%}
     Tags:
