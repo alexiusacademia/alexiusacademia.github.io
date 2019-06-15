@@ -15,3 +15,36 @@ I made a false bar because I cannot, as of this writing, make the window refresh
 
 7:34am  
 Now to work on the task splitting on the gui, I have to modify the core Task class and add the resulting two task segments after splitting the task.
+
+10:46am  
+What I have now is, the task can be splitted into two segments, however, during the splitting, thw whole task is moved one day to the right while the gantt chart window has not been refreshed. After the refresh, the task segments now will be in their correct position. One way of splitting the task I implemented is by double clicking on the task at the position appropriate. Below is the snippet of the event handler of that event:
+
+```python
+    def on_double_clicked(self, event, task, task_segment):
+        if isinstance(event, wx.MouseEvent):
+            loc = event.GetPosition()
+            x = loc[0]
+            day = int(x / BAR_SCALE) + 1
+            result = task.split_task(task_segment, day)
+            ts1, ts2 = result[1]
+            print('ts1:', ts1.start, ts1.duration)
+            print('ts2', ts2.start, ts2.duration)
+            bs = event.GetEventObject()
+
+            x, y = bs.GetPosition()
+
+            # Delete and hide the source bar segment
+            # self.bars.remove(bs)
+            bs.Hide()
+
+            for ts in result[1]:
+                bs1 = BarSegment(self,
+                                 ts.start * BAR_SCALE,
+                                 y,
+                                 ts.duration * BAR_SCALE,
+                                 BAR_HEIGHT, task, ts)
+                self.bars.append(bs1)
+```
+
+2:39pm  
+Instead of invoking the splitting by the double click, I decided to created a dialog window to handle that. This can now called from the ribbon if a task segment is selected.
