@@ -51,3 +51,6 @@ Instead of invoking the splitting by the double click, I decided to created a di
 
 3:12pm  
 The task split is now working after the split dialog is closed. I will add invoke of this dialog on the double click event of a task segment bar. I still have some bugs on the split task method that needs to be fixed. Maybe will work on it this evening.
+
+7:26pm  
+The double click event on the task bars are disabled for now as I will be linking another functionality in there. More on bar segments, ```Refresh``` is added on the constructor so that the default color work on Windows.
