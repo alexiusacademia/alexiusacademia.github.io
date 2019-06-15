@@ -50,4 +50,4 @@ What I have now is, the task can be splitted into two segments, however, during 
 Instead of invoking the splitting by the double click, I decided to created a dialog window to handle that. This can now called from the ribbon if a task segment is selected.
 
 3:12pm  
-The task split is now working after the split dialog is closed. I will add invoke of this dialog on the double click event of a task segment bar.
+The task split is now working after the split dialog is closed. I will add invoke of this dialog on the double click event of a task segment bar. I still have some bugs on the split task method that needs to be fixed. Maybe will work on it this evening.
