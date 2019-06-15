@@ -77,5 +77,19 @@ layout: default
     data-size="large" data-show-faces="true" data-share="true"></div>
   {%- endif -%}
 
+  {% assign tweet_base_url = "https://twitter.com/intent/tweet" %}
+  {% assign href = "https://alexiusacademia.github.io/" 
+  | append: page.permalink %}
+  <a class="twitter-share-button"
+    href="https://twitter.com/share?ref_src=twsrc%5Etfw"
+    data-size="large"
+    data-text={{ page.title }}
+    data-url={{ href }}
+    data-hashtags={{ page.title }}>
+    Tweet
+  </a>
+
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
