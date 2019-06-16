@@ -15,3 +15,5 @@ I added a button in the toolbar with the function to move a task segment. I figu
 Moving a task segment is now implemented using a custom dialog similar to the task segment splitting. More on the gantt chart, horizontal grid are also drawn whuch is triggered by the paint event. All bars are now centered vertically on the grid.
 
 Start date is also added to the ```Project``` class for setting and getting the start date. This will also be used in displaying the timeline on top of the gantt chart.
+
+To implement setting of start date, I will use a date picker given with wxPython. I will also enable scrolling the gantt chart for tasks that are not visible. I am also thinking about adding a property page.
