@@ -19,3 +19,5 @@ Tonight, I will be working for maybe just one or two hours in the project. I hav
 Now I've made some change in the ```Task``` class. I changed the default value of predecessor from ```None``` to an empty string. Much easier to work with in python for me.
 
 A new condition was also added in the _wbs_ columns. That is for the predecessors. It will update the task object accordingly.
+
+The next thing I'll work on is the drawing of the predecessor line in the gantt chart. This will help visualize the dependencies of the tasks.
