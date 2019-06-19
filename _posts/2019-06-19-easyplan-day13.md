@@ -20,3 +20,6 @@ Bar movement is also working now when the predecessor of that task has been assi
 
 5:01pm  
 I have coded now the predecessor line but with bug. The placement in the horizontal direction is incorrect. Another bug I found, not connected to predecessor line, is the setting of predecessor, you cannot unset it. This is maybe on the _wbs_ component. Will work on this later.
+
+5:06pm  
+I have reviewed the code and found that it was not a bug on wbs. It's really not going to come back to its original position because the start day of that task is already changed and it has to be changed again for correct placement. I found another lack of implementation though, the start day is not updating after the predecessor is set. I forgot this already as I was focusing on the predecessor lines. This was a problem for me on the previous coding of predecessor as I cannot call the ```populate``` method inside the method of an event inside the same class. So the solution I can think of is manually modifying the content of the cell.
