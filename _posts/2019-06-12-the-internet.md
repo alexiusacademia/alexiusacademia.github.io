@@ -1,5 +1,5 @@
 ---
-layout: poem
+layout: post
 title: The Internet
 authors: [alex]
 date: 2019-06-13
