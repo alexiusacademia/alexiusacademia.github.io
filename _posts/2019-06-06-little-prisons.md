@@ -6,6 +6,7 @@ date: 2019-06-06T10:00:00+0800
 tags: [gadgets]
 comments: true
 like: true
+featured: true
 permalink: 2019/06/06/little-prisons
 ---
 Life is not the same anymore,  
