@@ -2,11 +2,12 @@
 layout: post
 title: The Internet
 authors: [alex]
-date: 2019-06-13
+date: 2019-06-19
 tags: [internet, book]
 comments: true
 like: true
 published: true
+permalink: 2019/06/19/the-internet
 ---
 On monday, I started a new project. It's a book writing. My initial title is **The Internet**. It won't be too think in terms of pages I hope, but will sure be full with informations. It's about my own observation around me. It doesn't have to represent anybody. Just my observations.  
 
