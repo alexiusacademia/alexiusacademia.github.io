@@ -23,3 +23,6 @@ I have coded now the predecessor line but with bug. The placement in the horizon
 
 5:06pm  
 I have reviewed the code and found that it was not a bug on wbs. It's really not going to come back to its original position because the start day of that task is already changed and it has to be changed again for correct placement. I found another lack of implementation though, the start day is not updating after the predecessor is set. I forgot this already as I was focusing on the predecessor lines. This was a problem for me on the previous coding of predecessor as I cannot call the ```populate``` method inside the method of an event inside the same class. So the solution I can think of is manually modifying the content of the cell.
+
+9:40pm  
+Just solved the updating of cell start when predecessor is updated. I will also move the start day upon update of any task on duration and start day.
