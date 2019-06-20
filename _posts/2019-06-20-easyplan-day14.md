@@ -33,3 +33,6 @@ I have now implemented the same code above when the cell at start day is changed
 
 8:01pm  
 Predecessor lines are now fixed. I created an octhogonal line for orthogonal effect by getting the mid point between the predecessor and successor task. This way, the lines will not be drawn as diagonal. However I found another bug in setting the start day of a task. It doesn't check for it's predecessor.
+
+8:38pm  
+Just solved and fixed the bug above. I have to check first the dependency of the task that the start day is being edited before applying the new value. Then apply the predecessor end if necessary or appropriate.
