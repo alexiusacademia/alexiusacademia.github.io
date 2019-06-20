@@ -39,3 +39,19 @@ Just solved and fixed the bug above. I have to check first the dependency of the
 
 9:10pm  
 I added now two toolbar buttons in the ribbon. These tools are for moving task up or down by one row.
+
+9:31pm  
+Function of moving up and down of task is done. That wasn't so painful at all.lol
+
+```python
+index = self.project.selected_task_index
+
+if index == len(self.project.tasks) - 1:
+    pass
+else:
+    self.project.tasks.insert(index + 1, self.project.tasks.pop(index))
+    self.parent.left_pane.populate()
+    self.parent.right_pane.redraw()
+```
+
+Maybe in the future, I might implement a group of tasks selected to be moved simulatneously but for now, only one task at a time.
