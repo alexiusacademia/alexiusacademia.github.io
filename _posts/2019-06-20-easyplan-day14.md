@@ -30,3 +30,6 @@ elif col == 2:
 
 7:54pm  
 I have now implemented the same code above when the cell at start day is changed. Similar purpose.
+
+8:01pm  
+Predecessor lines are now fixed. I created an octhogonal line for orthogonal effect by getting the mid point between the predecessor and successor task. This way, the lines will not be drawn as diagonal.
