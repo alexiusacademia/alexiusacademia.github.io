@@ -27,3 +27,6 @@ elif col == 2:
                     tsk.set_start_day(pred_end)
                     self.SetCellValue((i, 1), str(tsk.start_day))
 ```
+
+7:54pm  
+I have now implemented the same code above when the cell at start day is changed. Similar purpose.
