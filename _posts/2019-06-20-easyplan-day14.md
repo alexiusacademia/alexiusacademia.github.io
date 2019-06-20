@@ -36,3 +36,6 @@ Predecessor lines are now fixed. I created an octhogonal line for orthogonal eff
 
 8:38pm  
 Just solved and fixed the bug above. I have to check first the dependency of the task that the start day is being edited before applying the new value. Then apply the predecessor end if necessary or appropriate.
+
+9:10pm  
+I added now two toolbar buttons in the ribbon. These tools are for moving task up or down by one row.
