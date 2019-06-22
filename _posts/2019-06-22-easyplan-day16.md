@@ -38,4 +38,4 @@ else:
     task.set_start_day(int(value))
 ```
 
-While I'm writing the software, I'm also reading a book simultaneously, just to not have so much focus on one thing. It eases my mind this way.
+While I'm writing the software, I'm also reading a book simultaneously, _The E-Myth_, just to not have so much focus on one thing. It eases my mind this way.
