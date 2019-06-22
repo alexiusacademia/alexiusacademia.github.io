@@ -15,3 +15,6 @@ The reason I did this is the default action when a bar is hovered is to move its
 
 5:49pm  
 I added some validation of project object first on gantt chart and wbs component before drawing them.
+
+5:59pm  
+Opening and loading of project now is working. First, I diabled the project object initialization on the creation of main window. Then I've set the project object on opening the file one by one for the main window, left pane and right pane.
