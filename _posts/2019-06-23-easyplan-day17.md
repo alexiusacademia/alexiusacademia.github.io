@@ -43,3 +43,6 @@ Bar segments can now be moved by dragging horizontally. I haven't worked with de
 I limit the movement so that the bar segments can only be moved to the left if they haven't reached the boundary yet.
 
  Next is the updating of the task segment start day or the whole task start dat if the whole task is being moved. Some restrictions are still for implementations though. Another thing is the update of the start day in the wbs table. Changes should be reflected there in realtime.
+
+9:48pm  
+I just made some late night bug fixing on the core api. The bug was on setting the task duration less than its previous value and it was pointed by my friend JAM when he was testing the application.
