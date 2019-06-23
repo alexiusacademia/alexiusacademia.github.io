@@ -36,3 +36,8 @@ Another bug was found this morning. When a task duration or start day was change
 
 3:48pm  
 Another bug is fixed. Predecessor is erased when erased on wbs.
+
+5:36pm  
+Bar segments can now be moved by dragging horizontally. I haven't worked with details yet but this should be a start.
+
+ Next is the updating of the task segment start day or the whole task start dat if the whole task is being moved. Some restrictions are still for implementations though. Another thing is the update of the start day in the wbs table. Changes should be reflected there in realtime.
