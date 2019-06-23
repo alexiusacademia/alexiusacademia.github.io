@@ -33,3 +33,6 @@ def initialize_project(self, project_dict):
 
 3:07pm  
 Another bug was found this morning. When a task duration or start day was changed, it's successor's start day will change as weel, but that successor's successor start day doesn't change accordingly. Perhaps the method I'm using in updating the successor start day must be improved and not change only one but look for all updates.
+
+3:48pm  
+Another bug is fixed. Predecessor is erased when erased on wbs.
