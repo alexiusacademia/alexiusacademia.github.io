@@ -26,3 +26,5 @@ pub.subscribe(self.on_project_updated, EVENT_PROJECT_UPDATED)
 ```
 
 Here, the method ```on_project_updated``` just redraws the gant chart.
+
+Also, earlier, a few bugs has been fixed. One of them is that the task deleted with successor, the successor's predecessor was not been resetting.
