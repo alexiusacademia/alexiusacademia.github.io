@@ -4,4 +4,5 @@ short_name: kayy
 name: Kayy Nunag
 position: Writer
 ---
-lorem ipsum dolor
+
+A psych graduate who has a knack for writing poems and photography.
