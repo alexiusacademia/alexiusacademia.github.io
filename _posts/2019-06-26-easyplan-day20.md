@@ -27,3 +27,6 @@ I also added new issue which is a bug I found earlier. The issue is the task bar
 Tonight, I'm working on two features, the split task and the bar dragging. On split task, the only thing I made is to make it work with the form of predecessors which is a list of tasks. On the bar dragging, I limited the movement of a bar segment, but I haven't completed it yet. The only limited movement is the bar segment which represents the task start day, meaning it's the first task segment in the list.
 
 What I'll do next is the limiting of a bar segment if it is not the first segment. Its left boundary must be limited.
+
+10:00pm  
+Now I have another bug, I cannot move a task segment if it is splitted. Must have done wrong in the splitting branch'
