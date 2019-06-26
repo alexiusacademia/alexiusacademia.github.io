@@ -17,3 +17,8 @@ I found that I had to make additions to the ```project.py``` module as this serv
 
 2:44pm  
 While at the tour at _Pantabangan Dam_, I was able to do little codings while not mobile. Latest improvement consist of creating two branches, bar-dragging and predecessor. The predecessor branch was didicated to making sure that predecessors are added and fetched correctly. The bar-dragging on the other hand introduced some more modifications. One of those is that setting start day of segment by using the bar location divided by some constant. The new bar location is then finalized after getting the new start day instead on relying on the location of the drag. This then solves the problem with the predecessor lines being disconnected.
+
+6:47pm  
+Now I'm at the office, the coding will continue. But first, I had to close some issues in github to announce that those issues are fixed now.
+
+I also added new issue which is a bug I found earlier. The issue is the task bar being allowed moving past its predecessor which is a bug. My bad, I haven't restricted it yet.
