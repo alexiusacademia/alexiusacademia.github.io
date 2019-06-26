@@ -14,3 +14,6 @@ Earlier, I made a mistake of assuming that a task can only have one predecessor.
 Late last night, I started the modifications to the codes implementing the predecessors as list instead of a single integer. I mainly worked with the _wbs_ component and made some edits as necessary to ```task.py```, ```project.py``` and this mornig, on the ```gantt.py``` modules.
 
 I found that I had to make additions to the ```project.py``` module as this served as the model and most of the pub messages are being sent from here.
+
+2:44pm  
+While at the tour at _Pantabangan Dam_, I was able to do little codings while not mobile. Latest improvement consist of creating two branches, bar-dragging and predecessor. The predecessor branch was didicated to making sure that predecessors are added and fetched correctly. The bar-dragging on the other hand introduced some more modifications. One of those is that setting start day of segment by using the bar location divided by some constant. The new bar location is then finalized after getting the new start day instead on relying on the location of the drag. This then solves the problem with the predecessor lines being disconnected.
