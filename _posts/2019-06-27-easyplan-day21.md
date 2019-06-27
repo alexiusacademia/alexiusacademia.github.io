@@ -25,4 +25,10 @@ if new_x > left_limit:
 ```
 
 10:57am  
-Working on the vertical grid. I decided to create a variable of major grid interval inside the project class. This can the be saved with the file.
+Working on the vertical grid. I decided to create a variable of major grid interval inside the project class. This can then be saved with the file.
+
+5:12pm  
+Worked on the bar dragging. A single task segment task now can be moved left and right with restrictions with its predecessor and successor.
+
+5:32pm  
+Finally figured it out. Bar segment can now be dragged left and right and will be limited by either, predecessor, successor or other task segment.
