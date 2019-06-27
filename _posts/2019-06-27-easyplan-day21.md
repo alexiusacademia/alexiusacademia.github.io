@@ -23,3 +23,6 @@ if new_x > left_limit:
     self.project.move_task_segment(self.task, self.task_segment, int(new_x / BAR_SCALE))
     self.Move(self.task_segment.start * BAR_SCALE, self.GetPosition()[1])
 ```
+
+10:57am  
+Working on the vertical grid. I decided to create a variable of major grid interval inside the project class. This can the be saved with the file.
