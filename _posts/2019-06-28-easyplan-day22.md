@@ -16,3 +16,10 @@ As a start, I will try to implement undo/redo by using the ```CommandProcessor``
 
 9:24pm  
 I just implemented undo/redo on some of the functionalities of the application. One of the days this coming week, I will be publishing a post regarding the tutorial of implementing this feature since I cannot, for myself, find a solution with clear guides online at the time of this writing.
+
+Before I go to bed, these are the functions that I implemented the undo and redo: 
+
+- Add Task
+- Delete Task
+- Move Task Up
+- Move Task Down
