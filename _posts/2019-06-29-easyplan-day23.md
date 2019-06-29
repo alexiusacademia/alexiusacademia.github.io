@@ -19,3 +19,6 @@ The following are the improvements and added implementations:
 - Undo/redo of moving task segment via dialog box
 - Undo/redo of dragging task segment
 - Dragging task segment now improved by doing the action only if the difference between original position and new is one day.
+
+6:26pm  
+Few bug fixes are in placed including restoration of deleted tasks on undo/redo and restoring tasks' successors when needed. Some improvements are that dialog confirmations are removed from Command classes as they are not right to be placed there in the first place.
