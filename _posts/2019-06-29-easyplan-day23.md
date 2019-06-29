@@ -22,3 +22,5 @@ The following are the improvements and added implementations:
 
 6:26pm  
 Few bug fixes are in placed including restoration of deleted tasks on undo/redo and restoring tasks' successors when needed. Some improvements are that dialog confirmations are removed from Command classes as they are not right to be placed there in the first place.
+
+I will still continue coding tonight and may not logged the latest additions here. Also starting tomorrow, I will be logging the time spent in coding for the project to track my coding efforts.
