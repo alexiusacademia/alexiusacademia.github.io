@@ -17,7 +17,7 @@ Start: 11:11am
 The software is broken :(
 End: 12:18pm  
 
-Start: 1:20pm
+Start: 1:20pm  
 Starting debugging...
 
 1:42pm  
@@ -39,4 +39,8 @@ Start of debugging.
 - Undo/Redo bug of merging of task has now been resolved.
 - Bud: display of start of segment in wbs is resolved.
 - Bug: unable to move task segment towards left when near the boundary is resolved.
-End 4:40pm  
+End: 4:51pm  
+
+Start: 7:00pm  
+Started setting size of custom icons.
+End: 7:18pm  
