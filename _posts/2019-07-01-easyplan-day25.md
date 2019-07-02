@@ -20,3 +20,7 @@ End: 4:18pm
 Start: 5:09pm  
 WBS is now editted to reflect the changes in the task.
 End: 5:23pm  
+
+Start: 8:00pm  
+Fixing task dragging.
+End: 8:34pm  
