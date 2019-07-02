@@ -22,4 +22,7 @@ Just fixed the undo/redo for bar dragging. Moving now with the predecessor lines
 6:44am  
 Predecessor lines are now fixed. Just a matter of adjusting the start and end points.
 
-End: ---
+7:16am  
+A new added functionality is when the duration column is updated, all else is updated accordingly including the newly added column FINISH.
+
+End: 7:17am
