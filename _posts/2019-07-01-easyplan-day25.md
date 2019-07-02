@@ -13,4 +13,6 @@ Yesterday, I haven't done any important coding in the project so I didn't post o
 
 Start: 4:06pm  
 First I have to make some adjustments in the calculation of task completion. The start day now shall be included in the duration and the start day should be one (1).
-End: ---
+
+Just added the methods for ```Task``` and ```TaskSegment``` classes for getting the completion day.
+End: 4:18pm  
