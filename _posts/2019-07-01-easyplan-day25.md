@@ -16,3 +16,7 @@ First I have to make some adjustments in the calculation of task completion. The
 
 Just added the methods for ```Task``` and ```TaskSegment``` classes for getting the completion day.
 End: 4:18pm  
+
+Start: 5:09pm  
+WBS is now editted to reflect the changes in the task.
+End: 5:23pm  
