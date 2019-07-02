@@ -19,4 +19,7 @@ Oh just forget something, I didn't fixed the undo function for the bar dragging.
 6:41am  
 Just fixed the undo/redo for bar dragging. Moving now with the predecessor lines.
 
+6:44am  
+Predecessor lines are now fixed. Just a matter of adjusting the start and end points.
+
 End: ---
