@@ -35,4 +35,6 @@ Start: 9:15pm
 On the ```Project``` class, I've editted the method for calculating project duration as the previous was wrong.
 
 The next thing I'm gonna do is add dialog for project information to let users enter informations about the project.
-End: --
+
+I only did some tinkering at the ribbon. Played with ribbon button bar and all. Tired now and going to bed. Maybe earlier tomorrow, will resume coding.
+End: 10:12pm  
