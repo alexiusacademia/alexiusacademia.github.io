@@ -30,3 +30,9 @@ End: 7:17am
 Start: 6:30pm  
 Just fixed the keyboard shortcuts on Windows. What I did is I also set the accelerators on the main frame and called the commands from the ribbon with the bindings.
 End: 6:38pm  
+
+Start: 9:15pm  
+On the ```Project``` class, I've editted the method for calculating project duration as the previous was wrong.
+
+The next thing I'm gonna do is add dialog for project information to let users enter informations about the project.
+End: --
