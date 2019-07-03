@@ -26,3 +26,7 @@ Predecessor lines are now fixed. Just a matter of adjusting the start and end po
 A new added functionality is when the duration column is updated, all else is updated accordingly including the newly added column FINISH.
 
 End: 7:17am
+
+Start: 6:30pm  
+Just fixed the keyboard shortcuts on Windows. What I did is I also set the accelerators on the main frame and called the commands from the ribbon with the bindings.
+End: 6:38pm  
