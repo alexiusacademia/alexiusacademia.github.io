@@ -32,3 +32,9 @@
     color: gray;
     font-weight: lighter;
 }
+
+.post-content {
+    font-size: 1.2em;
+    font-weight: lighter;
+    text-align: justify;
+}
