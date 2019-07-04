@@ -5,6 +5,7 @@ authors: [alex]
 tags: ["python programming", "undo and redo"]
 comments: true
 like: true
+featured: true
 date: 2019-07-04
 permalink: 2019/07/04/wxpython-undo-redo
 ---
