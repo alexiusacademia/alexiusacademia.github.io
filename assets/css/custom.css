@@ -33,6 +33,11 @@
     font-weight: lighter;
 }
 
+.author-description {
+    font-size: 1.2em;
+    font-weight: lighter;
+}
+
 .post-content {
     font-size: 1.2em;
     font-weight: lighter;
