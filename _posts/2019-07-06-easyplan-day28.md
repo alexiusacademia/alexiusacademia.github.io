@@ -22,3 +22,7 @@ End: 11:38am
 Start: 5:00pm  
 To continue, all the initial data is being updated in the project object. When now saved, can be retrieved as the open and save functionality has been updated. The additional properties that can now be set are project name, manager and start date. Finish date is automatically updated based on the duration.
 End: 6:09pm  
+
+Start: 9:15pm  
+On the spreadsheet control, instead of displaying the day number for the finish column, date is instead displayed based on the project setting start date.
+End: --
