@@ -21,4 +21,4 @@ End: 11:38am
 
 Start: 5:00pm  
 To continue, all the initial data is being updated in the project object. When now saved, can be retrieved as the open and save functionality has been updated. The additional properties that can now be set are project name, manager and start date. Finish date is automatically updated based on the duration.
-End: ---
+End: 6:09pm  
