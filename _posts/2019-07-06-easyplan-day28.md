@@ -13,4 +13,6 @@ Today, I'm working on the project information dialog box. Just adding some contr
 
 On the ```Project``` class, I have set the start_date to ```None``` so that the users will be responsible on setting it.
 
+On the ribbon, what I did is to initialize the project start date. Then on saving, since python can't pickle ```wx.DateTime``` objects, I just created tuples from that object. This will now in turn reversed on opening a project file.
+
 End: ---
