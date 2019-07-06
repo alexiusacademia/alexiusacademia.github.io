@@ -15,4 +15,6 @@ On the ```Project``` class, I have set the start_date to ```None``` so that the 
 
 On the ribbon, what I did is to initialize the project start date. Then on saving, since python can't pickle ```wx.DateTime``` objects, I just created tuples from that object. This will now in turn reversed on opening a project file.
 
-End: ---
+Initially, I finished the general tab for the project information. This should do for now. Later, I will be coding the functionalities for this.
+
+End: 11:38am  
