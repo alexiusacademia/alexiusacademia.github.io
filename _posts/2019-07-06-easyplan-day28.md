@@ -29,4 +29,6 @@ On the spreadsheet control, instead of displaying the day number for the finish 
 I had to make a few adjustments. First is I wanted the ```Task``` class to have a property for _start_date_ as well and so I added it. But during the saving of tasks list, because I used wx.Datetime, there arises some problems. And so I decided to use python datetime instead as the pickle gracefully pickles it.
 
 Since I changed it, I have to make some convertions during the display of the date since I'm using wx.Datetime on controls displaying dates.
+
+Another update on the ```Task``` class, start date of a task is updated once the start day is changed. This also applies recursively when there are successors.
 End: --
