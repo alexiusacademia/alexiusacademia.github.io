@@ -18,3 +18,7 @@ On the ribbon, what I did is to initialize the project start date. Then on savin
 Initially, I finished the general tab for the project information. This should do for now. Later, I will be coding the functionalities for this.
 
 End: 11:38am  
+
+Start: 5:00pm  
+To continue, all the initial data is being updated in the project object. When now saved, can be retrieved as the open and save functionality has been updated. The additional properties that can now be set are project name, manager and start date. Finish date is automatically updated based on the duration.
+End: ---
