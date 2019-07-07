@@ -31,4 +31,4 @@ I had to make a few adjustments. First is I wanted the ```Task``` class to have 
 Since I changed it, I have to make some convertions during the display of the date since I'm using wx.Datetime on controls displaying dates.
 
 Another update on the ```Task``` class, start date of a task is updated once the start day is changed. This also applies recursively when there are successors.
-End: --
+End: 10:00pm  
