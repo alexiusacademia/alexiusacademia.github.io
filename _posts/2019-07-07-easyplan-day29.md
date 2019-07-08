@@ -12,4 +12,4 @@ Start: 2:30pm
 Today I was working on the scrollbar at first then I stopped it. I worked for a little while and managed to display some scrollbar when sash is moved. Predecessor lines and not moving with the bars though. Couldn't figure it out just yet so I decided to work on something that I know I can accomplish just a little bit. I am now working on the timeline display.
 
 Dates will be shown per week so I'm gonna fit it in the display so that they don't overlap with the next week's date.
-End: --
+End: 3:20pm  
