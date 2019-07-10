@@ -15,5 +15,6 @@ Going back to what is accomplished last night, I can feel a lot of lag when work
 
 ---
 
+Temporarily, I disabled the timeline. I'm thinking of creating the timeline in the future as a different window/object so that I can manipulate it much better. For now, it is disabled.
 
-End: ---
+End: 8:18
