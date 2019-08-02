@@ -14,14 +14,15 @@
 
     {%- include header.html -%}
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
+    <main class="container mt-3">
         {{ content }}
-      </div>
     </main>
 
     {%- include footer.html -%}
     <script id="dsq-count-scr" src="//alexgh.disqus.com/count.js" async></script>
+    <script src="{{ "/assets/js/jquery-3.4.1.min.js" | relative_url }}"></script>
+    <script src="{{ "/assets/js/popper.min.js" | relative_url }}"></script>
+    <script src="{{ "/assets/js/bootstrap.min.js" | relative_url}}"></script>
   </body>
 
 </html>
