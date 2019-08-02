@@ -43,3 +43,7 @@
     font-weight: lighter;
     text-align: justify;
 }
+
+.profile-pic {
+    border-radius: 50%;
+}
