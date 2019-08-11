@@ -3,6 +3,7 @@ layout: default
 ---
 
 <div class="home">
+  {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
