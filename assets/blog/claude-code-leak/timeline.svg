@@ -14,7 +14,7 @@
   <!-- Node 2 -->
   <circle cx="70" cy="190" r="9" fill="#1a56db"/>
   <text x="100" y="184" font-size="14" font-weight="700" fill="#1a56db">Reconstruction</text>
-  <text x="100" y="206" font-size="13.5" fill="#334155">Researchers rebuild ~2,000 files and ~500,000 lines</text>
+  <text x="100" y="206" font-size="13.5" fill="#334155">Researchers rebuild ~1,900 files and ~513,000 lines</text>
   <text x="100" y="224" font-size="13.5" fill="#334155">of Claude Code from the map.</text>
 
   <!-- Node 3 -->
