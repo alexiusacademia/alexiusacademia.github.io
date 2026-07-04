@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 250" font-family="'Segoe UI', Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="960" height="250" fill="#ffffff"/>
+  <text x="480" y="34" text-anchor="middle" font-size="19" font-weight="700" fill="#1f2937">How a public npm package leaked the source</text>
+
+  <!-- Box 1 -->
+  <rect x="16" y="78" width="200" height="96" rx="10" fill="#eef2ff" stroke="#c7d2fe" stroke-width="1.5"/>
+  <text x="116" y="112" text-anchor="middle" font-size="14" font-weight="700" fill="#1a56db">npm package</text>
+  <text x="116" y="136" text-anchor="middle" font-size="12.5" fill="#334155">@anthropic-ai/</text>
+  <text x="116" y="153" text-anchor="middle" font-size="12.5" fill="#334155">claude-code</text>
+
+  <!-- Box 2 -->
+  <rect x="264" y="78" width="200" height="96" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="364" y="112" text-anchor="middle" font-size="14" font-weight="700" fill="#1f2937">cli.js.map</text>
+  <text x="364" y="136" text-anchor="middle" font-size="12.5" fill="#334155">a ~59.8 MB</text>
+  <text x="364" y="153" text-anchor="middle" font-size="12.5" fill="#334155">source map</text>
+
+  <!-- Box 3 -->
+  <rect x="512" y="78" width="200" height="96" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="612" y="112" text-anchor="middle" font-size="14" font-weight="700" fill="#1f2937">original sources</text>
+  <text x="612" y="136" text-anchor="middle" font-size="12.5" fill="#334155">reconstructed from</text>
+  <text x="612" y="153" text-anchor="middle" font-size="12.5" fill="#334155">the map's contents</text>
+
+  <!-- Box 4 -->
+  <rect x="760" y="78" width="200" height="96" rx="10" fill="#fef2f2" stroke="#fecaca" stroke-width="1.5"/>
+  <text x="860" y="112" text-anchor="middle" font-size="14" font-weight="700" fill="#dc2626">full codebase</text>
+  <text x="860" y="136" text-anchor="middle" font-size="12.5" fill="#334155">~1,900 files</text>
+  <text x="860" y="153" text-anchor="middle" font-size="12.5" fill="#334155">~513,000 lines</text>
+
+  <!-- Arrows -->
+  <line x1="220" y1="126" x2="260" y2="126" stroke="#94a3b8" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="468" y1="126" x2="508" y2="126" stroke="#94a3b8" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="716" y1="126" x2="756" y2="126" stroke="#94a3b8" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <text x="480" y="216" text-anchor="middle" font-size="12.5" fill="#64748b" font-style="italic">Source maps ship the original code so debuggers can un-minify a bundle &#8212; publish one publicly and you publish your source.</text>
+</svg>

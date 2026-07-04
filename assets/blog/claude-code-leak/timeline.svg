@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 540" font-family="'Segoe UI', Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="820" height="540" fill="#ffffff"/>
+  <text x="40" y="40" font-size="19" font-weight="700" fill="#1f2937">Anatomy of the incident</text>
+
+  <!-- vertical line -->
+  <line x1="70" y1="80" x2="70" y2="470" stroke="#c7d2fe" stroke-width="3"/>
+
+  <!-- Node 1 -->
+  <circle cx="70" cy="96" r="9" fill="#1a56db"/>
+  <text x="100" y="90" font-size="14" font-weight="700" fill="#1a56db">Mar 31, 2026 &#183; the leak</text>
+  <text x="100" y="112" font-size="13.5" fill="#334155">Researcher Chaofan Shou spots a ~59.8 MB source map in</text>
+  <text x="100" y="130" font-size="13.5" fill="#334155">@anthropic-ai/claude-code v2.1.88; it mirrors to GitHub in hours.</text>
+
+  <!-- Node 2 -->
+  <circle cx="70" cy="190" r="9" fill="#1a56db"/>
+  <text x="100" y="184" font-size="14" font-weight="700" fill="#1a56db">Reconstruction</text>
+  <text x="100" y="206" font-size="13.5" fill="#334155">Researchers rebuild ~2,000 files and ~500,000 lines</text>
+  <text x="100" y="224" font-size="13.5" fill="#334155">of Claude Code from the map.</text>
+
+  <!-- Node 3 -->
+  <circle cx="70" cy="284" r="9" fill="#1a56db"/>
+  <text x="100" y="278" font-size="14" font-weight="700" fill="#1a56db">Anthropic responds</text>
+  <text x="100" y="300" font-size="13.5" fill="#334155">Calls it &#8220;a release packaging issue caused by human</text>
+  <text x="100" y="318" font-size="13.5" fill="#334155">error&#8221;; says no customer data or credentials were exposed.</text>
+
+  <!-- Node 4 -->
+  <circle cx="70" cy="378" r="9" fill="#dc2626"/>
+  <text x="100" y="372" font-size="14" font-weight="700" fill="#dc2626">The cleanup overshoots</text>
+  <text x="100" y="394" font-size="13.5" fill="#334155">Takedown notices sweep up ~8,100 GitHub repos,</text>
+  <text x="100" y="412" font-size="13.5" fill="#334155">including legitimate forks of already-public code.</text>
+
+  <!-- Node 5 -->
+  <circle cx="70" cy="458" r="9" fill="#16a34a"/>
+  <text x="100" y="452" font-size="14" font-weight="700" fill="#16a34a">Apr 1&#8211;2 &#183; walk-back</text>
+  <text x="100" y="474" font-size="13.5" fill="#334155">Anthropic calls the over-broad takedown unintentional and</text>
+  <text x="100" y="492" font-size="13.5" fill="#334155">narrows it from ~8,100 repos to a single repo and its 96 forks.</text>
+</svg>
